@@ -5,6 +5,9 @@ Una API RESTful para la gestión de carritos de compras, desarrollada con Java 1
 
 Este proyecto ofrece endpoints para la gestión de carritos, incluyendo agregar/eliminar productos, ver el contenido del carrito y funcionalidad de checkout. Sigue buenas prácticas de seguridad (Auth by JWT) y organización del código.
 
+[RFC] Análisis y documentación de los CU, decisiones de diseño e implementación
+Link: https://docs.google.com/document/d/1jSqrgCFFBJ3sH1JukEsSAxfw2P8c_qEDEFBXI2tj60Y
+
 ## Tecnologías
 
 - Java 17
