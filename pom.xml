@@ -8,12 +8,12 @@
         <version>3.3.2</version>
         <relativePath/>
     </parent>
-    <groupId>ar.com.gabriel</groupId>
-    <artifactId>cartapi</artifactId>
+    <groupId>ar.com.ozonosoft</groupId>
+    <artifactId>tallerapi</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>cartapi</name>
-    <description>Api Cart</description>
+    <name>tallerapi</name>
+    <description>Taller Api</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -29,9 +29,9 @@
     </dependency>
 
     <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <scope>runtime</scope>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.33</version>
     </dependency>
 
     <dependency>
@@ -135,7 +135,7 @@
                             <outputFilename>testdiagram1.puml</outputFilename>
                             <scanPackages>
                                 <scanPackage>
-                                ar.com.gabriel.cart
+                                ar.com.ozonosoft.taller
                                 </scanPackage>
                             </scanPackages>
                         </configuration>
